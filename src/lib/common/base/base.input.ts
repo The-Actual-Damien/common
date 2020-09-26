@@ -1,1 +1,1 @@
-export interface BaseInput { }
+export abstract class BaseInput { }

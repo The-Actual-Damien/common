@@ -1,5 +1,7 @@
 import { NotImplementedException } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
+import { MockInput } from './io/mock.input';
+import { MockOutput } from './io/mock.output';
 
 import { MockUseCase } from './mock.use-case';
 
@@ -18,7 +20,15 @@ describe('MockUseCase', () => {
     expect(useCase).toBeDefined();
   });
 
-  it('should throw on activate', () => {
-    expect(useCase.activate).toThrowError(NotImplementedException);
+  it('should reject on activate', async () => {
+    await useCase.activate(new MockInput()).catch(err => {
+      expect(err).toBeDefined()
+    })
+  });
+
+  it('should reject with a MockOutput object', async () => {
+    await useCase.activate(new MockInput()).catch(err => {
+      expect(err).toBeInstanceOf(MockOutput)
+    })
   });
 });
