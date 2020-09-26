@@ -1,2 +1,1 @@
-export * from './error/not-implemented.error';
-export * from './use-case/base.use-case';
+export * from './base/base.use-case';

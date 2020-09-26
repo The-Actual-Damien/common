@@ -1,7 +1,6 @@
+import { NotImplementedException } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { MockRepository } from './mock.repository';
-
-import { NotImplementedError } from '../../common';
 
 describe('MockRepository', () => {
   let repo: MockRepository<Error>;
@@ -19,46 +18,46 @@ describe('MockRepository', () => {
   });
 
   it('should throw on find', () => {
-    expect(repo.find).toThrowError(NotImplementedError);
+    expect(repo.find).toThrowError(NotImplementedException);
   });
 
   it('should throw on findAndCount', () => {
-    expect(repo.findAndCount).toThrowError(NotImplementedError);
+    expect(repo.findAndCount).toThrowError(NotImplementedException);
   });
 
   it('should throw on findByIds', () => {
-    expect(repo.findByIds).toThrowError(NotImplementedError);
+    expect(repo.findByIds).toThrowError(NotImplementedException);
   });
 
   it('should throw on findOne', () => {
-    expect(repo.findOne).toThrowError(NotImplementedError);
+    expect(repo.findOne).toThrowError(NotImplementedException);
   });
 
   it('should throw on findOneOrFail', () => {
-    expect(repo.findOneOrFail).toThrowError(NotImplementedError);
+    expect(repo.findOneOrFail).toThrowError(NotImplementedException);
   });
 
   it('should throw on save', () => {
-    expect(repo.save).toThrowError(NotImplementedError);
+    expect(repo.save).toThrowError(NotImplementedException);
   });
 
   it('should throw on insert', () => {
-    expect(repo.insert).toThrowError(NotImplementedError);
+    expect(repo.insert).toThrowError(NotImplementedException);
   });
 
   it('should throw on delete', () => {
-    expect(repo.delete).toThrowError(NotImplementedError);
+    expect(repo.delete).toThrowError(NotImplementedException);
   });
 
   it('should throw on count', () => {
-    expect(repo.count).toThrowError(NotImplementedError);
+    expect(repo.count).toThrowError(NotImplementedException);
   });
 
   it('should throw on query', () => {
-    expect(repo.query).toThrowError(NotImplementedError);
+    expect(repo.query).toThrowError(NotImplementedException);
   });
 
   it('should throw on recover', () => {
-    expect(repo.recover).toThrowError(NotImplementedError);
+    expect(repo.recover).toThrowError(NotImplementedException);
   });
 });

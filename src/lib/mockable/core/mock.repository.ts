@@ -1,17 +1,17 @@
-import { Injectable } from '@nestjs/common';
-import { NotImplementedError } from '../../common';
+import { Injectable, NotImplementedException } from '@nestjs/common';
+
 
 @Injectable()
 export class MockRepository<T> {
-  find(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  findAndCount(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  findByIds(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  findOne(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  findOneOrFail(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  insert(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  query(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  delete(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  count(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  recover(obj?: any): Promise<T> { throw new NotImplementedError(); }
-  save(obj?: any): Promise<T> { throw new NotImplementedError(); }
+  find(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  findAndCount(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  findByIds(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  findOne(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  findOneOrFail(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  insert(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  query(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  delete(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  count(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  recover(obj?: any): Promise<T> { throw new NotImplementedException(); }
+  save(obj?: any): Promise<T> { throw new NotImplementedException(); }
 }

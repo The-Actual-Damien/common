@@ -1,6 +1,6 @@
+import { NotImplementedException } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 
-import { NotImplementedError } from '../../common';
 import { MockUseCase } from './mock.use-case';
 
 describe('MockUseCase', () => {
@@ -19,6 +19,6 @@ describe('MockUseCase', () => {
   });
 
   it('should throw on activate', () => {
-    expect(useCase.activate).toThrowError(NotImplementedError);
+    expect(useCase.activate).toThrowError(NotImplementedException);
   });
 });
