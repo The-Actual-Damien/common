@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/yggni/common/compare/v0.0.2...v0.0.3) (2020-09-27)
+
+
+### Bug Fixes
+
+* remove unused file and fix husky ([f1aaeaf](https://github.com/yggni/common/commit/f1aaeaf849064999224be0f6400cdcdceeb860a1))
+
 ### [0.0.2](https://github.com/yggni/common/compare/v0.0.1...v0.0.2) (2020-09-27)
 
 
