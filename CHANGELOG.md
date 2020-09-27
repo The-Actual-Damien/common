@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/yggni/common/compare/v0.0.1...v0.0.2) (2020-09-27)
+
+
+### Bug Fixes
+
+* BaseUseCase abstracts ([3d08062](https://github.com/yggni/common/commit/3d0806287183361b129dc40cd724403aadbcf920))
+* package access modifier to public ([0c0782a](https://github.com/yggni/common/commit/0c0782ad3c96d6dfeb07d336b3f599aedc8210f1))
+
 ### 0.0.1 (2020-09-27)
 
 
