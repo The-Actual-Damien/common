@@ -7,7 +7,7 @@
     "repository": "https://github.com/yggni/common",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com",
-        "access": "public"
+        "access": "restricted"
     },
     "scripts": {
         "reset": "rm -rf .git",
