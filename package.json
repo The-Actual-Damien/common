@@ -1,10 +1,10 @@
 {
-    "name": "@yggni/library-starter",
+    "name": "@yggni/common",
     "version": "0.0.1",
-    "description": "Library Template for @yggni libs",
+    "description": "Common library to be used in the @yggni project.",
     "author": "Getúlio Magela Silva",
     "license": "MIT",
-    "repository": "https://github.com/yggni/environment",
+    "repository": "https://github.com/yggni/common",
     "publishConfig": {
         "registry": "https://npm.pkg.github.com",
         "access": "public"
@@ -37,7 +37,9 @@
         "@nestjs/core": "7.4.4",
         "@nestjs/platform-express": "7.4.4",
         "@nestjs/platform-fastify": "7.4.4",
+        "@nestjs/swagger": "^4.6.1",
         "@nestjs/testing": "^7.4.4",
+        "@nestjs/typeorm": "^7.1.4",
         "@types/jest": "^26.0.14",
         "@types/lodash": "4.14.161",
         "@types/node": "^11.15.0",
@@ -59,6 +61,7 @@
         "swagger-parser": "10.0.2",
         "swagger-ui-express": "4.1.4",
         "ts-jest": "26.4.0",
+        "typeorm": "^0.2.26",
         "typescript": "3.9.7"
     },
     "lint-staged": {

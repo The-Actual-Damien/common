@@ -1,5 +1,5 @@
 import { Injectable, NotImplementedException } from '@nestjs/common';
-import { BaseUseCase } from '../../common';
+import { BaseUseCase } from '../../../common';
 import { MockInput } from './io/mock.input';
 import { MockOutput } from './io/mock.output';
 

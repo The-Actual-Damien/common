@@ -1,4 +1,4 @@
-import { BaseOutput } from "../../../common";
+import { BaseOutput } from "../../../../common";
 
 export class MockOutput extends BaseOutput {
   constructor(errs?: Array<string>) {

@@ -1,4 +1,3 @@
-import { NotImplementedException } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { MockInput } from './io/mock.input';
 import { MockOutput } from './io/mock.output';
