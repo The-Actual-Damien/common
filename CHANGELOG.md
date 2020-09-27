@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.0.4](https://github.com/yggni/common/compare/v0.0.3...v0.0.4) (2020-09-27)
 
+
+### Bug Fixes
+
+* package versions ([264cff6](https://github.com/yggni/common/commit/264cff6a8625aa9a90508924724d5aa65c86a469))
+
+### [0.0.4](https://github.com/yggni/common/compare/v0.0.3...v0.0.4) (2020-09-27)
+
 ### [0.0.3](https://github.com/yggni/common/compare/v0.0.2...v0.0.3) (2020-09-27)
 
 

@@ -1,6 +1,6 @@
 {
     "name": "@yggni/common",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Common library to be used in the @yggni project.",
     "author": "Getúlio Magela Silva",
     "license": "MIT",
@@ -20,8 +20,8 @@
         "lint": "eslint './**/*.ts' --fix",
         "test": "jest",
         "test:dev": "jest --watch",
-        "prerelease": "npm run build:release",
-        "release": "standard-version",
+        "prerelease": "standard-version",
+        "release": "npm run build:release",
         "postrelease": "npm run publish:release",
         "prepublish:release": "git push --follow-tags origin main",
         "publish:release": "npm publish dist"
