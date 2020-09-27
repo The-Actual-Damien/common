@@ -1,14 +1,13 @@
-import { Module } from "@nestjs/common";
+import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { loadEnvironment } from "./core/load-environment";
+import { loadEnvironment } from './core/load-environment';
 
 @Module({
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      load: [loadEnvironment]
-    })
+      load: [loadEnvironment],
+    }),
   ],
-  exports: []
 })
-export class EnvironmentModule { }
+export class EnvironmentModule {}
