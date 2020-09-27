@@ -1,6 +1,6 @@
 {
     "name": "@yggni/common",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Common library to be used in the @yggni project.",
     "author": "Getúlio Magela Silva",
     "license": "MIT",
